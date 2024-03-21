@@ -1,0 +1,15 @@
+.box-information {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px 0 20px 0;
+    width: 100%;
+    padding: 20px;
+}
+
+h2{
+    color: #0f0f0f;
+}
+p{
+    color: #4b4949;
+}
