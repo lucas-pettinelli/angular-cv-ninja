@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SubtitlesComponent } from './subtitles.component';
+import { ThemeToogleComponent } from './theme-toogle.component';
 
-describe('SubtitlesComponent', () => {
-  let component: SubtitlesComponent;
-  let fixture: ComponentFixture<SubtitlesComponent>;
+describe('ThemeToogleComponent', () => {
+  let component: ThemeToogleComponent;
+  let fixture: ComponentFixture<ThemeToogleComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SubtitlesComponent]
+      imports: [ThemeToogleComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(SubtitlesComponent);
+    fixture = TestBed.createComponent(ThemeToogleComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

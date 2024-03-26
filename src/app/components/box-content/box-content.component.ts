@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { SubtitlesComponent } from "../subtitles/subtitles.component";
+import {CurriculumContentComponent} from '../curriculum-content/curriculum-content.component'
 
 @Component({
     selector: 'app-box-content',
     standalone: true,
     templateUrl: './box-content.component.html',
     styleUrl: './box-content.component.css',
-    imports: [SubtitlesComponent]
+    imports: [CurriculumContentComponent]
 })
 export class BoxContentComponent {
 

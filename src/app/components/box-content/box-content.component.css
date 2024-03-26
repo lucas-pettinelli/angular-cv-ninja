@@ -1,6 +1,6 @@
 .container {
     max-width: 800px;
-    margin: 50px auto;
+    margin: 40px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 5px;
@@ -9,5 +9,13 @@
 
 h1 {
     text-align: center;
+    color: #0D6FFC;
+    border-bottom: 1px solid #000000;
 }
 
+@media screen and (max-width: 600px) {
+    .container {
+        margin: 20px;
+        padding: 10px;
+    }
+}
