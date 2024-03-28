@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { BoxContentComponent } from "../../components/box-content/box-content.component";
 import { ButtonPageLinkComponent } from "../../components/button-page-link/button-page-link.component";
+
 
 @Component({
     selector: 'app-home',
@@ -9,6 +10,7 @@ import { ButtonPageLinkComponent } from "../../components/button-page-link/butto
     styleUrl: './home.component.css',
     imports: [BoxContentComponent, ButtonPageLinkComponent]
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit {
+    ngOnInit(): void {    }
 
 }

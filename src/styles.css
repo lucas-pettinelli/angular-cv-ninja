@@ -9,8 +9,6 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #EEEEEE;
-  margin: 0;
-  padding: 0;
 }
 
 html,
@@ -25,6 +23,6 @@ body {
 }
 
 .dark-theme {
-  background-color: #292828;
-  color: #ffffff;
+  background-color: #272727;
+  color: #EEEEEE;
 }

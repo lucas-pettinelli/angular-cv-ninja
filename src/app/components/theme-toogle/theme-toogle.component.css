@@ -1,10 +1,19 @@
-button{
-    padding: 5px 10px;
+button {
+    position: fixed;
+    top: 0.5rem;
+    padding: 5px 5px;
+    right: 0.5rem;
     background-color: #fff;
     border-radius: 40px;
     border: 1px solid #101010;
+    cursor: pointer;
 }
 
-button:active{
-    color: #fff;
+button:active {
+    background-color: #e7e4e4;
+    color: #101010;
+}
+
+.mat-icon{
+    font-size: 24px;
 }

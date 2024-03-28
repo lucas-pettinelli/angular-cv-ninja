@@ -26,8 +26,11 @@ $curriculo-ninja-theme: mat.define-light-theme((
     accent: $curriculo-ninja-accent,
     warn: $curriculo-ninja-warn,
   ),
-  typography: mat.define-typography-config(),
+  typography: mat.define-typography-config(
+
+  ),
   density: 0
+
 ));
 
 // Include theme styles for core and each component used in your app.

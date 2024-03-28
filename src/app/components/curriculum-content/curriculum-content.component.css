@@ -3,38 +3,37 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    margin: 20px 0 0 0;
+    margin: 20px  auto;
     width: 100%;
     padding: 20px;
 }
 
 h2 {
-    color: #2b2b2b;
+    color: #010101;
 }
 
 p {
     font-size: medium;
     font-style: italic;
-    color: #757575;
+    color: #929292;
 }
 
 .layout-curriculum {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .layout-curriculum img {
     width: 500px;
-    height: 600px;
+    height: 550px;
     filter: brightness(0.9);
     border: 3px solid #979797;
-
 }
 
 button {
     margin-top: 20px;
     display: inline-block;
     padding: 10px 20px;
-    background-color: #1878ff;
+    background-color: #01BC68;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
@@ -42,7 +41,7 @@ button {
 }
 
 button:hover {
-    background-color: #0866e9;
+    background-color: #00a55b;
 }
 
 a {

@@ -10,8 +10,7 @@ describe('ThemeToogleComponent', () => {
     await TestBed.configureTestingModule({
       imports: [ThemeToogleComponent]
     })
-    .compileComponents();
-    
+    .compileComponents();    
     fixture = TestBed.createComponent(ThemeToogleComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
